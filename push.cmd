@@ -1,0 +1,1 @@
+docker push dev4dar/mongo-todo:latest

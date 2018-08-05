@@ -1,0 +1,1 @@
+docker build --tag dev4dar/mongo-todo .
