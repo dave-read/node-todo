@@ -7,13 +7,13 @@ metadata:
 spec:
   containers:
     - name: node-mongo-todo
-      image: dev4dar/mongo-todo
+      image: dev4dar/node-mongo-todo
       ports:
         - containerPort: 8080
       env:
         - name: DB_URL
           valueFrom:
             secretKeyRef:
-              name: db-url
+              name: mongo-todo-db-url
               key: DB_URL
 

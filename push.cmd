@@ -1,1 +1,1 @@
-docker push dev4dar/mongo-todo:latest
+docker push dev4dar/node-mongo-todo
